@@ -1,0 +1,1 @@
+Jika user ada di url awal maka arahkan ke beranda.
