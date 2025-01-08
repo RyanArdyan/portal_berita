@@ -80,14 +80,14 @@ php artisan migrate
 php artisan db:seed
 ```
 
-9. Jalankan Aplikasi Anda dapat menjalankan server pengembangan dengan perintah:
-```bash
-php artisan serve
-```
-
-10. Membuat symbolic link dari direktori penyimpanan (storage) ke direktori publik (public)
+9. Membuat symbolic link dari direktori penyimpanan (storage) ke direktori publik (public)
 ```bash
 php artisan storage:link
+```
+
+10. Jalankan Aplikasi Anda dapat menjalankan server pengembangan dengan perintah:
+```bash
+php artisan serve
 ```
 
 ## Penggunaan Aplikasi
