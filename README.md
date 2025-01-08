@@ -21,7 +21,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Pendahuluan
 
-Portal berita adalah aplikasi web yang memungkinkan pengguna untuk membaca berita terbaru, mengelola artikel, dan berinteraksi dengan konten. Proyek ini dibangun menggunakan framework Laravel 11.
+Portal berita ini dirancang untuk menyajikan berita terkini dengan berbagai kategori, menampilkan artikel-artikel populer, dan memungkinkan pengguna untuk memberikan komentar pada artikel. Proyek ini dibangun menggunakan framework Laravel 11.
 
 ## Prasyarat
 
