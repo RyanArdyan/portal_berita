@@ -85,7 +85,7 @@
                     <!-- Social Follow Start -->
                     <div class="pb-3">
                         <div class="bg-light py-2 px-4 mb-3">
-                            <h3 class="m-0">Follow Us</h3>
+                            <h3 class="m-0">Ikuti Kami</h3>
                         </div>
                         <div class="d-flex mb-3">
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2"
@@ -119,24 +119,6 @@
                         </div>
                     </div>
                     <!-- Social Follow End -->
-
-                    <!-- Newsletter Start -->
-                    <div class="pb-3">
-                        <div class="bg-light py-2 px-4 mb-3">
-                            <h3 class="m-0">Newsletter</h3>
-                        </div>
-                        <div class="bg-light text-center p-4 mb-3">
-                            <p>Aliqu justo et labore at eirmod justo sea erat diam dolor diam vero kasd</p>
-                            <div class="input-group" style="width: 100%;">
-                                <input type="text" class="form-control form-control-lg" placeholder="Your Email">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary">Sign Up</button>
-                                </div>
-                            </div>
-                            <small>Sit eirmod nonumy kasd eirmod</small>
-                        </div>
-                    </div>
-                    <!-- Newsletter End -->
 
                     <!-- Ads Start -->
                     <div class="mb-3 pb-3">

@@ -40,7 +40,7 @@
             <h4 class="font-weight-bold mb-4">Quick Links</h4>
             <div class="d-flex flex-column justify-content-start">
                 @foreach ($semua_kategori as $kategori)
-                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>{{ $kategori->name }}</a>
+                    <a class="text-secondary mb-2" href="/kategori/{{ $kategori->category_id }}"><i class="fa fa-angle-right text-dark mr-2"></i>{{ $kategori->name }}</a>
                 @endforeach
             </div>
         </div>
@@ -48,7 +48,7 @@
 </div>
 <div class="container-fluid py-4 px-sm-3 px-md-5">
     <p class="m-0 text-center">
-        &copy; <a class="font-weight-bold" href="#">EDUCASTUDIO</a>. All Rights Reserved.
+        &copy; <a class="font-weight-bold" href="">EDUCASTUDIO</a>. All Rights Reserved.
     </p>
 </div>
 <!-- Footer End -->

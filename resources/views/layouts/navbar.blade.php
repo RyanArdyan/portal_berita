@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
             <div class="navbar-nav mr-auto py-0">
                 @foreach ($semua_kategori as $kategori)
-                    <a href="index.html" class="nav-item nav-link">{{ $kategori->name }}</a>
+                    <a href="/kategori/{{ $kategori->category_id }}" class="nav-item nav-link">{{ $kategori->name }}</a>
                 @endforeach
             </div>
             {{-- panggil rute berikut --}}
