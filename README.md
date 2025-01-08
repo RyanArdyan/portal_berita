@@ -86,6 +86,16 @@ DB_USERNAME=username
 DB_PASSWORD=password
 ```
 
+7. Migrasi Database Jalankan migrasi untuk membuat tabel di database:
+```bash
+php artisan migrate
+```
+
+8. Seed Database untuk mengisi database dengan data
+```bash
+php artisan db:seed
+```
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
