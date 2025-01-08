@@ -66,7 +66,7 @@ class HomeController extends Controller
         // berisi beberapa artikel, lalu pilih value dari column-column sebagai berikut
         $beberapa_artikel_terbaru = Artikel::with('kategori')->select('article_id', 'category_id', 'title', 'image', 'views', 'published_at') // Menghitung jumlah komentar
             ->orderBy('published_at', 'desc') // Mengurutkan berdasarkan tanggal posting, jadi dari tinggi ke rendah
-            ->take(5) // Ambil 5 artikel terbaru
+            ->take(8) // Ambil 5 artikel terbaru
             ->get(); // dapatkan data nya\
 
 
@@ -96,6 +96,10 @@ class HomeController extends Controller
         // berisi ambil komentar dan ambil yang menulis komentar nya lalu dimana column article_id sama dengan $detail_artikel->article_id
         $semua_komentar_artikel = Comment::with('user')->select('comment_id', 'user_id', 'comment', 'created_at')->where('article_id', $detail_artikel->article_id)->get();
 
+        // ambil semua kategori\
+        $semua_kategori = Category::select('category_id', 'name')->limit(4)->get();
+
+
         // Mengambil artikel dengan jumlah views terbanyak
         // berisi beberapa artikel, lalu pilih value dari column-column sebagai berikut
         $beberapa_artikel_populer = Artikel::select('article_id', 'category_id', 'title', 'image', 'views', 'published_at', 'content') // Menghitung jumlah komentar
@@ -107,7 +111,8 @@ class HomeController extends Controller
         return view('home.read', [
             'detail_artikel' => $detail_artikel,
             'beberapa_artikel_populer' => $beberapa_artikel_populer,
-            'semua_komentar_artikel' => $semua_komentar_artikel
+            'semua_komentar_artikel' => $semua_komentar_artikel,
+            'semua_kategori' => $semua_kategori
         ]);
     }
 
@@ -183,12 +188,16 @@ class HomeController extends Controller
         // berisi panggil model Categori yang dimana value column category_id sama dengan parameter $category_id lalu dapatkan data baris pertama
         $nama_kategori = Category::where('category_id', $category_id)->first()->name;
 
+        // ambil semua kategori\
+        $semua_kategori = Category::select('category_id', 'name')->limit(4)->get();
+
         // kembalikkan ke tampilan berikut
         return view('home.article_by_category', [
             // index beberapa_artikel_populer berisi value variable berikut
             'beberapa_artikel_populer' => $beberapa_artikel_populer,
             'beberapa_artikel_sesuai_kategori' => $beberapa_artikel_sesuai_kategori,
-            'nama_kategori' => $nama_kategori
+            'nama_kategori' => $nama_kategori,
+            'semua_kategori' => $semua_kategori
         ]);
     }
 }

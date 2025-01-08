@@ -8,9 +8,9 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
             <div class="navbar-nav mr-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="category.html" class="nav-item nav-link">Categories</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                @foreach ($semua_kategori as $kategori)
+                    <a href="index.html" class="nav-item nav-link">{{ $kategori->name }}</a>
+                @endforeach
             </div>
             {{-- panggil rute berikut --}}
             <form action="{{ route('home.search_result') }}" method="GET">

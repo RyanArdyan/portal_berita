@@ -118,7 +118,7 @@
                                     <span class="px-1">/</span>
                                     <span>{{ $artikel_populer->published_at }}</span>
                                 </div>
-                                <a class="h6 m-0" href="">{{ $artikel_populer->title }}</a>
+                                <a class="h6 m-0" href="/read/{{ $artikel_populer->title }}">{{ $artikel_populer->title }}</a>
                             </div>
                         </div>
                     @endforeach
