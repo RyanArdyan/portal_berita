@@ -92,6 +92,9 @@ Setelah aplikasi berjalan, Anda dapat mengaksesnya melalui browser. Berikut adal
 3. Panel admin untuk mengelola berita, kategori, dan komentar.
 4. Fitur pencarian dan filter kategori berfungsi dengan baik.
 
+## Penutup
+Dokumentasi ini memberikan panduan dasar untuk menginstal, mengkonfigurasi, dan menggunakan aplikasi portal berita yang dibangun dengan Laravel 11. Jika Anda memiliki pertanyaan lebih lanjut, silakan buka repository GitHub untuk informasi lebih lanjut.
+
 
 ## Code of Conduct
 
