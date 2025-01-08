@@ -74,7 +74,10 @@ cp .env.example .env
 ```
 
 5. Generate Kunci Aplikasi Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
+```bash
 php artisan key:generate
+```
+
 
 ## Code of Conduct
 
