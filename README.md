@@ -47,9 +47,9 @@ Sebelum memulai instalasi, pastikan Anda memiliki hal-hal berikut:
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
-## Contributing
+## Instalasi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Ikuti langkah-langkah berikut untuk menginstal aplikasi:
 
 ## Code of Conduct
 
