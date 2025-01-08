@@ -13,10 +13,9 @@ Daftar Isi
 
 1. Pendahuluan
 2. Prasyarat
-3. Instalasi
-4. Konfigurasi
-5. Penggunaan Aplikasi
-6. Penutup
+3. Instalasi dan Konfigurasi
+4. Penggunaan Aplikasi
+5. Penutup
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -77,6 +76,15 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+6. Konfigurasi
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database
+DB_USERNAME=username
+DB_PASSWORD=password
+```
 
 ## Code of Conduct
 
