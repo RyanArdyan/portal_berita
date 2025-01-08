@@ -47,7 +47,7 @@ Sebelum memulai instalasi, pastikan Anda memiliki hal-hal berikut:
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
-## Instalasi
+## Instalasi Tahap 1
 
 Ikuti langkah-langkah berikut untuk menginstal aplikasi:
 1. Clone Repository
