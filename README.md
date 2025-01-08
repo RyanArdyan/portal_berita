@@ -30,22 +30,6 @@ Sebelum memulai instalasi, pastikan Anda memiliki hal-hal berikut:
 2. Composer
 3. Laragon atau XAMPP
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
 ## Instalasi dan Konfigurasi
 
 Ikuti langkah-langkah berikut untuk menginstal aplikasi:
@@ -100,6 +84,14 @@ php artisan db:seed
 ```bash
 php artisan serve
 ```
+
+## Penggunaan Aplikasi
+Setelah aplikasi berjalan, Anda dapat mengaksesnya melalui browser. Berikut adalah beberapa fitur utama yang tersedia:
+1. Halaman utama menampilkan daftar berita dan artikel populer
+2. Halaman detail artikel dengan fitur komentar.
+3. Panel admin untuk mengelola berita, kategori, dan komentar.
+4. Fitur pencarian dan filter kategori berfungsi dengan baik.
+
 
 ## Code of Conduct
 
