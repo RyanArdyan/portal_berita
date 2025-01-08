@@ -85,6 +85,11 @@ php artisan db:seed
 php artisan serve
 ```
 
+10. Membuat symbolic link dari direktori penyimpanan (storage) ke direktori publik (public)
+```bash
+php artisan storage:link
+```
+
 ## Penggunaan Aplikasi
 Setelah aplikasi berjalan, Anda dapat mengaksesnya melalui browser. Berikut adalah beberapa fitur utama yang tersedia:
 1. Halaman utama menampilkan daftar berita dan artikel populer
