@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## CARA INSTALASI
+## DOKUMENTASI PROYEK PORTAL BERITA
 
 Daftar Isi
 
@@ -20,13 +20,9 @@ Daftar Isi
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Pendahuluan
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Portal berita adalah aplikasi web yang memungkinkan pengguna untuk membaca berita terbaru, mengelola artikel, dan berinteraksi dengan konten. Proyek ini dibangun menggunakan framework Laravel 11.
 
 ## Laravel Sponsors
 
