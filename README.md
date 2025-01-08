@@ -50,6 +50,9 @@ Sebelum memulai instalasi, pastikan Anda memiliki hal-hal berikut:
 ## Instalasi
 
 Ikuti langkah-langkah berikut untuk menginstal aplikasi:
+1. Clone Repository
+git clone https://github.com/username/portal-berita.git
+cd portal-berita
 
 ## Code of Conduct
 
