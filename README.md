@@ -57,6 +57,16 @@ git clone https://github.com/RyanArdyan/portal_berita.git
 cd portal-berita
 ```
 
+2. Instal Dependensi Jalankan perintah berikut untuk menginstal dependensi PHP menggunakan Composer:
+```bash
+composer install
+```
+
+3. Buat File .env Salin file .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
