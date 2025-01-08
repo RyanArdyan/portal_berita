@@ -73,6 +73,9 @@ composer install
 cp .env.example .env
 ```
 
+5. Generate Kunci Aplikasi Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
+php artisan key:generate
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
