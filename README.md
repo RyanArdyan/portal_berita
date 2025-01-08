@@ -76,7 +76,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-6. Konfigurasi
+6. Konfigurasi Database Buka file .env dan sesuaikan pengaturan database Anda:
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
