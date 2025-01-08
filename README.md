@@ -54,7 +54,6 @@ Ikuti langkah-langkah berikut untuk menginstal aplikasi:
 
 ```bash
 git clone https://github.com/RyanArdyan/portal_berita.git
-cd portal-berita
 ```
 
 2. Masuk ke proyek
