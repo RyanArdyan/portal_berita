@@ -24,9 +24,12 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 Portal berita adalah aplikasi web yang memungkinkan pengguna untuk membaca berita terbaru, mengelola artikel, dan berinteraksi dengan konten. Proyek ini dibangun menggunakan framework Laravel 11.
 
-## Laravel Sponsors
+## Prasyarat
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Sebelum memulai instalasi, pastikan Anda memiliki hal-hal berikut:
+1. PHP >= 8.1
+2. Composer
+3. Laragon atau XAMPP
 
 ### Premium Partners
 
