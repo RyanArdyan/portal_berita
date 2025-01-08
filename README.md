@@ -96,6 +96,11 @@ php artisan migrate
 php artisan db:seed
 ```
 
+9. Jalankan Aplikasi Anda dapat menjalankan server pengembangan dengan perintah:
+```bash
+php artisan serve
+```
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
