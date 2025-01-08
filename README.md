@@ -53,7 +53,7 @@ Ikuti langkah-langkah berikut untuk menginstal aplikasi:
 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/portal-berita.git
+git clone https://github.com/RyanArdyan/portal_berita.git
 cd portal-berita
 ```
 
