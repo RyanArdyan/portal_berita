@@ -19,11 +19,10 @@ class AuthController extends Controller
     // $request berisi menyimpan data name, email dan password dari form
     public function store(Request $request)
     {
-        // dd($request->all());
-
         // tangkap datanya
         $email = $request->email;
         $password = $request->password;
+        $ingat_saya = $request->ingat_saya;
 
         // ambil kredensial
         // lakukan validasi
@@ -33,8 +32,8 @@ class AuthController extends Controller
             'password' => ['required', 'min:6', 'max:255'],
         ]);
 
-        // jika kredensial cocok
-        if (Auth::attempt($credentials)) {
+        // jika kredensial cocok dan kita gunakan fitur ingat saya
+        if (Auth::attempt(['email' => $email, 'password' => $password], $ingat_saya)) {
             // hasilkan ulang sesi
             $request->session()->regenerate();
 

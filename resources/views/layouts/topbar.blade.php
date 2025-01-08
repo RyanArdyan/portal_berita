@@ -13,10 +13,13 @@
         <div class="col-md-4 text-right d-none d-md-block">
 
             @if (Auth::user())
-                <a href="{{ route('logout') }}">Logout</a>
-                </a>
+                <h3>
+                    <a href="{{ route('logout') }}">Logout</a></a>
+                </h3>
             @else
-                <a href="{{ route('login') }}">Yuk Login</a>
+                <h3>
+                    <a href="{{ route('login') }}">Yuk Login</a>
+                </h3>
             @endif
         </div>
     </div>

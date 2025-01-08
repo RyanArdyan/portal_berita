@@ -10,8 +10,8 @@ use App\Http\Controllers\Admin\ArtikelController;
 
 // rute tipe dapatkan, jika user diarahkan ke url awal maka arahkan ke controller berikut dan method berikut, name nya adalah sebagai berikut
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
-// rute grup tipe perangkat tengah, jika user sudah login maka jalankan fungsi berikut
-Route::middleware(['auth'])->group(function () {
+// rute grup tipe perangkat tengah, jika user sudah login dan seorang role admin maka jalankan fungsi berikut
+Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
     Route::get('/admin/category', [CategoryController::class, 'index'])->name('admin.category.index');
     // rute tipe dapatkan, jika user diarahkan ke url berikut maka arahkan ke controller dan method berikut, berikut adalah name nya
@@ -41,6 +41,9 @@ Route::middleware(['auth'])->group(function () {
     // rute tipe dapatkan, jika user di url berikut maka kirimkan id lalu panggil controller dan method berikut
     Route::get('/admin/article/comment/destroy/{id}', [ArtikelController::class, 'destroy_comment'])->name('admin.article.comment.destroy');
 
+});
+
+Route::middleware(['auth'])->group(function () {
     // rute tipe dapatkan, jika user di url berikut maka panggil controller dan method berikut
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });

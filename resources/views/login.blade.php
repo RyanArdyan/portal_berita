@@ -46,6 +46,12 @@
                                     <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
                             </div>
+
+                            <div class="form-group">
+                                <input name="ingat_saya" type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>Ingat saya</label>
+                            </div>
+
                             <div class="form-group form-button">
                                 <button type="submit" class="form-submit">Yuk Login</button>
                             </div>
