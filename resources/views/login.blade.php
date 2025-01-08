@@ -19,13 +19,13 @@
                     <div class="signup-form">
                         {{-- jika ada session status, tampilkan alert, akan berisi dua hal yaitu "berhasil registrasi, silahkan login" atau "Berhasil Logout" --}}
                         @if (session('status'))
-                            <div class="alert alert-success">
+                            <h2 class="form-title">
                                 {{-- cetak nilai sesi status --}}
                                 {{ session('status') }}
-                            </div>
+                            </h2>
                         @endif
 
-                        <h2 class="form-title">Sign In</h2>
+                        <h2 class="form-title">Yuk Login</h2>
                         {{-- cetak panggil rute login.store --}}
                         <form action="{{ route('login.store') }}" method="POST" class="register-form" id="register-form">
                             {{-- laravel mewajibkan keamanan dari serangan csrf --}}
@@ -34,7 +34,7 @@
                             @method('POST')
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input name="email" type="email" id="email" value="{{ old('email') }}" placeholder="Your email"/>
+                                <input name="email" type="email" id="email" value="{{ old('email') }}" placeholder="Email Kamu"/>
                                 @error('email')
                                     <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
@@ -47,14 +47,14 @@
                                 @enderror
                             </div>
                             <div class="form-group form-button">
-                                <button type="submit" class="form-submit">Sign In</button>
+                                <button type="submit" class="form-submit">Yuk Login</button>
                             </div>
                         </form>
                     </div>
                     <div class="signup-image">
                         <figure><img src="{{ asset('colorlib-regform-7') }}/images/signin-image.jpg" alt="sign in image"></figure>
                         {{-- cetak panggil rute registrasi.index --}}
-                        <a href="{{ route('registrasi.index') }}" class="signup-image-link">Not registered yet? click here</a>
+                        <a href="{{ route('registrasi.index') }}" class="signup-image-link">Belum registrasi? click disini</a>
                     </div>
                 </div>
             </div>
