@@ -57,12 +57,18 @@ git clone https://github.com/RyanArdyan/portal_berita.git
 cd portal-berita
 ```
 
-2. Instal Dependensi Jalankan perintah berikut untuk menginstal dependensi PHP menggunakan Composer:
+2. Masuk ke proyek
+   
+```bash
+cd portal-berita
+```
+
+3. Instal Dependensi Jalankan perintah berikut untuk menginstal dependensi PHP menggunakan Composer:
 ```bash
 composer install
 ```
 
-3. Buat File .env Salin file .env.example menjadi .env
+4. Buat File .env Salin file .env.example menjadi .env
 ```bash
 cp .env.example .env
 ```
