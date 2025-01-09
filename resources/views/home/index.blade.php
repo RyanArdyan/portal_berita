@@ -177,7 +177,7 @@
                                         <span class="px-1">/</span>
                                         <span>{{ $artikel_kategori_teknologi->published_at }}</span>
                                     </div>
-                                    <a class="h4 m-0" href="">{{ $artikel_kategori_teknologi->title }}</a>
+                                    <a class="h4 m-0" href="/read/{{ $artikel_kategori_teknologi->title }}">{{ $artikel_kategori_teknologi->title }}</a>
                                 </div>
                             </div>
                         @endforeach

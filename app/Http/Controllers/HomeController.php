@@ -89,6 +89,8 @@ class HomeController extends Controller
         // berisi panggil model artikel dan ambil kategori nya lalu pilih value dari column-column berikut yang dimana column title sama dengan value parameter title, ambil data baris pertama
         $detail_artikel = Artikel::with('kategori')->select('article_id', 'category_id', 'title', 'content', 'image', 'published_at', 'views')->where('title', $title)->first();
 
+        // dd($detail_artikel);
+
         // panggil detail_artikel lalu tambah value pada column views di table artikel
         $detail_artikel->views = $detail_artikel->views + 1;
         $detail_artikel->save();
@@ -164,11 +166,15 @@ class HomeController extends Controller
             ->take(5) // Ambil 5 artikel terpopuler
             ->get(); // dapatkan data nya
 
+        // ambil semua kategori\
+        $semua_kategori = Category::select('category_id', 'name')->limit(4)->get();
+
         // kembalikkan ke tampilan berikut
         return view('home.search_result', [
             // index semua_artikel berisi value variable berikut
             'semua_artikel' => $semua_artikel,
-            'beberapa_artikel_populer' => $beberapa_artikel_populer
+            'beberapa_artikel_populer' => $beberapa_artikel_populer,
+            'semua_kategori' => $semua_kategori
         ]);
     }
 

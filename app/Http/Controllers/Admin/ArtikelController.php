@@ -67,7 +67,8 @@ class ArtikelController extends Controller
             'category_id' => $category_id,
             'content' => $content,
             'image' => $filename,
-            'published_at' => now()
+            'published_at' => now(),
+            'views' => 1,
         ]);
         // kembali lalu alihkan ke rute berikut, lalu kirimkan data success
         return redirect()->route('admin.article.create')->with('status', 'Successfully added a new article.');

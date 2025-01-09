@@ -246,6 +246,7 @@ Dengan kerja keras dan ketekunan, tahun ini akan membawa keuntungan finansial, k
             'category_id' => 1,
             'title' => 'Penetapan Wali Kota Yogyakarta Terpilih, KPU Tunggu Surat MK',
             'image' => 'politik1.jpg',
+            'views' => 1,
             'content' => 'Tahun 2025 merupakan Tahun Ular Kayu, dimulai pada 29 Januari 2025.
 
 Tahun ini dipercaya membawa keberuntungan berbeda untuk setiap shio, tetapi beberapa di antaranya diprediksi akan menjadi yang paling beruntung.
@@ -294,6 +295,7 @@ Dengan kerja keras dan ketekunan, tahun ini akan membawa keuntungan finansial, k
             'category_id' => 1,
             'title' => 'Wacana Kepala Daerah Dipilih DPRD Disebut Langkah Mundur Demokrasi',
             'image' => 'politik2.jpg',
+            'views' => 1,
             'content' => 'Tahun 2025 merupakan Tahun Ular Kayu, dimulai pada 29 Januari 2025.
 
 Tahun ini dipercaya membawa keberuntungan berbeda untuk setiap shio, tetapi beberapa di antaranya diprediksi akan menjadi yang paling beruntung.
@@ -343,6 +345,7 @@ Dengan kerja keras dan ketekunan, tahun ini akan membawa keuntungan finansial, k
             'title' => 'Microsoft Gelontorkan Rp 1.295 Triliun demi Bangun Data Center AI
 ',
             'image' => 'teknologi1.jpg',
+            'views' => 1,
             'content' => 'Tahun 2025 merupakan Tahun Ular Kayu, dimulai pada 29 Januari 2025.
 
 Tahun ini dipercaya membawa keberuntungan berbeda untuk setiap shio, tetapi beberapa di antaranya diprediksi akan menjadi yang paling beruntung.
@@ -392,6 +395,7 @@ Dengan kerja keras dan ketekunan, tahun ini akan membawa keuntungan finansial, k
             'title' => 'Tiga Bulan Menggunakan Asus Zenfone 11 Ultra, Performa Gahar
 ',
             'image' => 'teknologi2.jpg',
+            'views' => 1,
             'content' => 'Tahun 2025 merupakan Tahun Ular Kayu, dimulai pada 29 Januari 2025.
 
 Tahun ini dipercaya membawa keberuntungan berbeda untuk setiap shio, tetapi beberapa di antaranya diprediksi akan menjadi yang paling beruntung.
